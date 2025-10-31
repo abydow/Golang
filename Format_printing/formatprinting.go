@@ -1,12 +1,11 @@
-
 package main
 
 import (
-        "fmt"
+	"fmt"
 )
 
 func main() {
-        const name = "Kim"
+	const name = "Kim"
 	const age = 22
 
 	// const name, age = "kim", 22
