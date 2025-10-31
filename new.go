@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
 	fmt.Println("\t Hello!Gophers🎀")
 
@@ -11,13 +11,13 @@ func main(){
 	fmt.Println(`
 	Roses are red
 	violets are blue
-	I sarted golang 
+	I started golang 
 	without any clue
 
 	`)
 
 	/*
-	How to write multiline comment
+		How to write multiline comment
 	*/
 
 }
