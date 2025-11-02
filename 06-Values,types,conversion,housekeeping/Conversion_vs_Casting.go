@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("%v of type %T \n", m, m)
 
 	/*
-		#In gop you cant assign a float32 value to a variable that is holding float64
+		#In go you cant assign a float32 value to a variable that is holding float64
 
 		like;
 
