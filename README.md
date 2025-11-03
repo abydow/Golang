@@ -1,3 +1,3 @@
 # Golang
 
- [ ] The way I learned GOlang.
+ [ ] The way I learned GO.
