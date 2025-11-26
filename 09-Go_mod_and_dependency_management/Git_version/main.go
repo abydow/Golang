@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("checking out git versioning")
+func newver() {
+	fmt.Println("v 1.3.0")
 }
 
-// git tag v1.2.0
+func main() {
+	fmt.Println("checking out git versioning")
+	newver()
+}
