@@ -14,6 +14,7 @@ func main(){
 		fmt.Printf("Value of x: %v\n", x)
 		x ++
 	}
+	// break statement
 	z := 0
 	for {
 		fmt.Printf("loop until 16 %v\n", z)
@@ -22,6 +23,7 @@ func main(){
 		}
 		z=z+2
 	}
+	// continue statement
 	for j:=range 10 { // continues even if the if statement isn't met
 		if j%2 == 0 {
 			fmt.Printf("even number: %v\n", j)
