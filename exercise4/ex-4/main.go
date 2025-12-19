@@ -12,7 +12,14 @@ func init () {
 	}
 }
 
+
 func main() {
-	fmt.Println("See init function in action!")
+	fmt.Println(`
+Niladic (0 parameters) - func doSomething()
+Monadic (1 parameter) - func square(x int)
+Dyadic (2 parameters) - func add(a, b int)
+Triadic (3 parameters) - func volume(l, w, h int)
+Polyadic (many parameters) - func sum(nums ...int)
+	`)
 
 }
